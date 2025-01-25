@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background rectangle -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#EDF3FC" />
+        </shape>
+    </item>
+
+    <!-- Oval shape stretching across the screen -->
+    <item
+        android:gravity="top"
+        android:top="-100dp">
+        <shape android:shape="oval">
+            <solid android:color="@color/icon_blue" />
+            <size
+                android:width="match_parent"
+                android:height="200dp" />
+        </shape>
+    </item>
+</layer-list>
